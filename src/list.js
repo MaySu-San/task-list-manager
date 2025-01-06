@@ -2,7 +2,7 @@ import Swal from "sweetalert2";
 import { listGroup } from "./selectors.js";
 import { v4 as uuidv4 } from 'uuid';
 
-export const tasks=["To learn JS", "Sleep Early", "Drink water each hour"];
+export const tasks=["Learn JS", "Sleep Early", "Meditation"];
 export const updateTaskTotal = () => {
   const lists = document.querySelectorAll(".list");
   totalTask.innerText = lists.length;
